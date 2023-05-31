@@ -1,3 +1,3 @@
-# ACC_WGTSpipeline
+# ACC_WGSpipeline
 This pipeline is a workflow for the detection of variants on whole genome or targeted sequencing data. This pipeline is designed to work on any species with a reference genome.   This pipeline can be used to process tumour / normal pairs in as many combinations as needed. 
 The pipeline is built using Nextflow, a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. It uses Docker/Singularity containers making installation trivial and results highly reproducible. The Nextflow DSL2 implementation of this pipeline uses one container per process making it easier to maintain and update software dependencies. 
